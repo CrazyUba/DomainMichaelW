@@ -1,0 +1,123 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Bewerbung Willershausen</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="~/startbootstrap-clean-blog-gh-pages/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="~/startbootstrap-clean-blog-gh-pages/css/clean-blog.min.css" rel="stylesheet">
+    <link href="~/startbootstrap-clean-blog-gh-pages/css/clean-blog_uba.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="~/startbootstrap-clean-blog-gh-pages/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- My CSS -->
+    <link href="~/Content/uba.css" rel="stylesheet">
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <style>
+        h2, h3 {
+            font-family: 'Lora', 'Times New Roman', serif;
+        }
+    </style>
+
+    <!-- Icon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Icon - End -->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    @RenderPage("NavBar.cshtml")
+
+    <!-- Page Header -->
+    <!-- Set your background image for this header on the line below. -->
+    @*<header class="intro-header" style="background-image: url('../../startbootstrap-clean-blog-gh-pages/img/post-bg.jpg')">*@
+    @*<header class="intro-header" style="background-image: url('../../Content/img/factory-1352544_1920.jpg'); background-position: center">*@
+    <header class="intro-header" style="background-image: url('../../Content/img/lab-512503_1920.jpg');">
+        
+        <img id="fotoMichael" class="img-circle" src="~/Content/img/FotoMichael.png" />
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
+                    <div class="post-heading">
+                        <h1>Bewerbung als "Laborwerker"</h1>
+                        <h2 class="subheading">StellenID: 207034BR</h2>
+                        <span class="meta">20. März 2017</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Post Content -->
+    <article>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9 col-lg-offset-1 col-md-10 col-md-offset-1">
+                    @RenderPage("AnschreibenText.cshtml")
+                </div>
+            </div>
+        </div>
+    </article>
+
+    
+
+    <!-- Footer -->
+    <footer>
+       @RenderPage("Footer.cshtml")
+    </footer>
+
+    <!-- jQuery -->
+    <script src="~/startbootstrap-clean-blog-gh-pages/vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="~/startbootstrap-clean-blog-gh-pages/vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="~/startbootstrap-clean-blog-gh-pages/js/jqBootstrapValidation.js"></script>
+    <script src="~/startbootstrap-clean-blog-gh-pages/js/contact_me.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="~/startbootstrap-clean-blog-gh-pages/js/clean-blog.min.js"></script>
+
+</body>
+
+</html>
